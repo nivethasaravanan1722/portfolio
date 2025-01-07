@@ -1,0 +1,250 @@
+div nav  {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    padding-left: 50%;
+    padding-top: 30px;  
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0.1,0.1,0.1,0.1);
+    border-radius: 60px;
+    
+
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-size: larger;
+    letter-spacing: 1.7px;
+}
+
+div nav li{
+    list-style-type: none;   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.he2,.he1{
+    color: black;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+
+.he2:hover,.he1:hover{
+    color: rgb(19, 168, 133);
+    font-size:18px;
+   
+}
+
+
+.he3{
+    color: black;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+
+.he3:hover{
+    color: rgb(19, 168, 133);
+    font-size:18px;
+}
+
+.he4{
+    color: black;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+
+.he4:hover{
+    color: rgb(19, 168, 133);
+    font-size:18px;
+}
+
+#welcome{
+    font-size:60px;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"
+}
+
+#introdiv{
+    margin-left: 150px;
+    margin-top: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.para1{
+    font-size: 20px;
+    color: rgb(133, 132, 132);
+}
+
+.para2{
+    font-size: 30px;
+    color: rgb(92, 90, 90);
+}
+
+img{
+    width: 350px;
+    height: 390px;
+    margin-top: 230px;
+    margin-left: 190px;
+    
+}
+
+.selfintro{
+  display: flex;
+}
+
+.img2{
+       width:30px ;
+       height: 30px;
+       margin-top: 0%;
+}
+
+.logoimg2{
+    width:30px ;
+    height: 30px;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+
+.emptydiv1{
+    height: 100px;
+    width: 300px;
+    border: 10px;
+    background-color:white;
+}
+
+.emptydiv2{
+    height: 100px;
+    width: 300px;
+    border: 10px;
+    background-color:white;
+}
+
+#page1,#page2,#page3{
+    margin-left: 150px;
+}
+
+.pg1heading{
+    font-size: 50px;
+    color: rgb(25, 3, 3);
+}
+
+.pg1para1{
+    font-size: 25px;
+}
+
+.pg1h3{
+    font-size: xx-large;
+}
+
+.educationmaindiv{
+      display: flex;
+      gap: 80px;
+      margin-left:50px;
+}
+
+.edusubdiv1,.edusubdiv2,.edusubdiv3{ 
+    width: 280px;
+    height:200px;
+    background-color: white;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.divp1,.divp2,.divp3{
+    padding-left: 30px ;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.summa{
+    display: flex;
+    gap: 50px;
+}
+
+.suh41{
+    margin-left: 30px;
+    font-size: larger;
+}
+.suh42{
+    margin-left: 270px;
+}
+.suh43{
+    margin-left: 270px;
+}
+
+.skim1,.skim2,.skim3{
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.webimg1,.webimg2,.webimg3{
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.skh2{
+    font-size:50px;
+}
+
+.prog,.webdev{
+    height: 100%;
+    width: 190px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #d1caca;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  nav a {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 1s ease-in-out; }
+
+
+    #contact {
+       /* background-color: #f7f7f7;*/
+       padding: 20px;
+      }
+      
+      #contact h2 {
+        margin-top: 0;
+      }
+      
+      /*.contact-info {
+        margin-top: 20px;
+      }*/
+      
+      .contact-info p {
+        margin-bottom: 10px;
+      }
+      
+      .contact-info a {
+        text-decoration: none;
+        color: #337ab7;
+      }
+      
+      .contact-info a:hover {
+        color: #23527c;
+      }
+ .contact{
+    margin-top :0;
+ }    
+      
